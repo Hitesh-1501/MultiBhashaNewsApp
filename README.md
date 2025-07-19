@@ -1,13 +1,13 @@
 # MultiBhashaNewsApp
 
 ## Key Features
-  1) **Top Headlines** – Get the latest global and local news.<br>
-  2) **Browse by Categories** – Access news from Business, Sports, Technology, Entertainment, Health, and more.
-  3)<br>**Global Search** – Search for specific topics using keywords.
-  4)**Add/Remove Favourite News** – Save articles locally using **Room Database**.<br>
-  5)**About Us Page** – Shows app and developer info.<br>
-  6) **In-app Privacy Policy** – XML-based privacy policy screen.<br>
-  7)**Single Activity with Multiple Fragments** – Clean and efficient app structure.<br>
+1. **Top Headlines** – Get the latest global and local news.  
+2. **Browse by Categories** – Access news from Business, Sports, Technology, Entertainment, Health, and more.  
+3. **Global Search** – Search for specific topics using keywords.  
+4. **Add/Remove Favourite News** – Save articles locally using **Room Database**.  
+5. **About Us Page** – Shows app and developer information.  
+6. **In-app Privacy Policy** – Simple XML-based privacy policy screen.  
+7. **Single Activity with Multiple Fragments** – Clean and efficient app structure for better performance.
 
 ## Tech Stack
 
