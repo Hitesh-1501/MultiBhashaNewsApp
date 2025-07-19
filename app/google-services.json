@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39876074412",
+    "project_id": "multibhasha-news",
+    "storage_bucket": "multibhasha-news.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39876074412:android:892854a87a5b344714f809",
+        "android_client_info": {
+          "package_name": "com.example.multibhashanews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVBFKlWLcvcJ5fs-equ_eXffU_vfIr_FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

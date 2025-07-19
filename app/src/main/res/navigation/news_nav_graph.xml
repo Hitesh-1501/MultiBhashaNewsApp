@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/headLinesFragment">
+
+    <fragment
+        android:id="@+id/headLinesFragment"
+        android:name="com.example.multibhashanews.fragments.HeadLinesFragment"
+        android:label="Top HeadLines"
+        tools:layout="@layout/fragment_head_lines" >
+        <action
+            android:id="@+id/action_headLinesFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.multibhashanews.fragments.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryTypeFragment"
+            app:destination="@id/categoryTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryTypeFragment"
+        android:name="com.example.multibhashanews.fragments.CategoryTypeFragment"
+        android:label="{category_title}"
+        tools:layout="@layout/fragment_category_type" >
+        <action
+            android:id="@+id/action_categoryTypeFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+        <argument
+            android:name="category_title"
+            app:argType="string"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.example.multibhashanews.fragments.FavouritesFragment"
+        android:label="Favourites"
+        tools:layout="@layout/fragment_favourites" >
+        <action
+            android:id="@+id/action_favouritesFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.multibhashanews.fragments.SearchFragment"
+        android:label="Search" >
+        <action
+            android:id="@+id/action_searchFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.multibhashanews.fragments.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article">
+
+        <argument
+            android:name="article"
+            app:argType="com.example.multibhashanews.model.Article"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.multibhashanews.fragments.AboutFragment"
+        android:label="About"/>
+</navigation>
