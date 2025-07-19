@@ -2,8 +2,8 @@
 
 ## Key Features
   1) **Top Headlines** – Get the latest global and local news.<br>
-  2) **Browse by Categories** – Access news from Business, Sports, Technology, Entertainment, Health, and more.<br>
-  3)**Global Search** – Search for specific topics using keywords.<br>
+  2) **Browse by Categories** – Access news from Business, Sports, Technology, Entertainment, Health, and more.
+  3)<br>**Global Search** – Search for specific topics using keywords.
   4)**Add/Remove Favourite News** – Save articles locally using **Room Database**.<br>
   5)**About Us Page** – Shows app and developer info.<br>
   6) **In-app Privacy Policy** – XML-based privacy policy screen.<br>
