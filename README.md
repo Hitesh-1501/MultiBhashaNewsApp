@@ -1,4 +1,4 @@
-# MultiBhashaNewsApp
+# DailyScope News
 
 ## Key Features
 1. **Top Headlines** – Get the latest global and local news.  
